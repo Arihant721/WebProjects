@@ -1,0 +1,143 @@
+section{
+	padding-top: 3%;
+}
+#part1,#part3{
+	font-size:1.2em;
+}
+#part2 h1, #part3 h1{margin-bottom: 3%;}
+#part2 article{
+	position: relative;
+	text-align: center;
+}
+#HeaderNav span{
+	color:white;
+	cursor: pointer;
+}
+#part2 .Timeline{
+	display:inline-block;
+	align-self:center;			
+	background-color: var(--info);
+}
+#primaryBar.Timeline{}
+
+#part3 .blockquote{
+	font-style: italic;
+}
+#part4 button img{height: 1.3em;vertical-align: text-bottom;};
+#part4 .btn{}
+@media (min-width: 1200px){
+	#part2 svg{
+		width:55px;height: 55px;position: relative;
+    top: -20px;
+	}
+	#part2 .mainIcon{
+		width:65%;height: 55%;
+	}			
+	#part2 .Timeline{
+		display: none;
+	}
+	#primaryBar.Timeline{
+		width:5%;
+		height:190%;
+		display:inline-block;
+		position: relative;
+    	top: -13%;
+	}
+	
+	#part2 .col-md-4,#part2 .col-md-6{}
+}
+@media (min-width: 992px) and (max-width: 1199px){	
+	#part2 svg{
+		width:70px;height: 70px;
+		position: relative;
+    	top: -35px;
+	}
+	#part2 .mainIcon{
+		width:90%;height: 50%;
+	}		
+	#part2 .Timeline{display: none;}
+	#primaryBar.Timeline{
+		width:5%;
+		height:190%;
+		display:inline-block;
+		position: relative;
+    	top: -18%;
+	}
+}
+@media(max-width: 991px) and (min-width:768px){
+	#part2 svg{
+		width:55px;height: 55px;position: relative;
+    	top: -3%;
+	}
+	#part2 .mainIcon{
+		width:100%;height: 28%;
+	}
+	#part2 .Timeline{
+		display: none;
+	}
+	#primaryBar.Timeline{
+		width:7%;
+		height:190%;
+		display:inline-block;
+		position: relative;
+    	top: -4%;
+	}
+}
+@media(max-width: 767px) and (min-width: 577px){
+	#part2 svg{
+		width: 20%;
+	    height: 31%;
+	    position: relative;
+	    top: -1%
+	}
+	#part2 .mainIcon{
+		width: 50%;
+    	height: 50%;
+	}
+	#part2 .Timeline{
+		width:2%;height: 34%;
+	}
+	#primaryBar.Timeline{
+		width:2%;
+		height: 50%;
+		display:inline-block;
+	}
+	#part2 .col-md-4{
+		border-top:solid 5px grey;
+		border-radius: 25px;
+	}
+	#part2 .col-md-6{
+		border-bottom:solid 5px grey;
+		border-radius: 25px;
+	}
+}
+@media(max-width: 576px){
+	#a1,#a2,#a3{
+		border:3px solid white;border-radius:3%;
+	}
+	#part2 svg{
+		width: 11.5%;
+	    height: 31%;
+	    position: relative;
+	    top: -2%;
+	}
+	#part2 .mainIcon{
+		width:42%;height: 42%;
+	}
+	#part2 .Timeline{
+		height:34%;width:1.5%;
+	}
+	#primaryBar.Timeline{
+		width:1.5%;
+		height: 60%;
+		display:inline-block;
+	}
+	#part2 .col-md-4{
+		border-top:solid 5px grey;
+		border-radius: 30px;
+	}
+	#part2 .col-md-6{
+		border-bottom:solid 5px grey;
+		border-radius: 30px;
+	}
+}
