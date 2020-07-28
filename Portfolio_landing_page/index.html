@@ -21,9 +21,6 @@
 			const we = document.getElementById("HeaderContainer").clientHeight - document.getElementById("HeaderNav").scrollHeight;
 			console.log(we);
 			document.getElementById("HeaderContainer").style.height = we +"px";
-				document.querySelector("main").addEventListener("wheel",function(event) {
-				document.getElementById("TopNav").style.display = "inline-block";
-			});
 		});
 	</script>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -34,7 +31,7 @@
 	</div>	
 	<header class="navbar navbar-dark container-fluid jumbotron" id="HeaderContainer" style ="background-color: rgb(50,50,50,0.5);text-align:center;margin:0;height: 100vh;">
 		<div class="row">
-		<h1 class="navbar-brand col-sm-12" style="font-size: 3.5em; color:var(--danger)">Welcome to my projects!</h1>
+		<h1 class="col-sm-12" style="font-size: 3.5em; color:var(--danger)">Welcome to my projects!</h1>
 		<cite class="col-sm-12" style="color: white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</cite></div>
 	</header>
 	<nav class = " bg-info navbar-dark" id = "HeaderNav" style="z-index:1;box-shadow: 0 1px 17px 3px;">
